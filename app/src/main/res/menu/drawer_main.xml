@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/news"
+            android:title="Programming news"/>
+
+        <item
+            android:id="@+id/android"
+            android:title="@string/android_menu"/>
+
+
+        <item
+            android:id="@+id/java"
+            android:title="@string/java_menu"/>
+
+        <item
+            android:id="@+id/dsa"
+            android:title="@string/dsa_menu"/>
+
+        <item
+            android:id="@+id/cppID"
+            android:title="@string/cpp_menu"/>
+
+
+    </group>
+</menu>
